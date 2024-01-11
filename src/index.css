@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0.3rem; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a366f1; /* color of the thumb */
+    border-radius: 10px;
+}
+
+/* For WebKit browsers - Horizontal scroll bar */
+::-webkit-scrollbar:horizontal {
+    height: 0.5rem; /* height of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #a366f1; /* color of the thumb */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 0.3rem; /* width of the scrollbar */
+}
+
+::-moz-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+    background: #a366f1;
+    border-radius: 10px;
+}
+
+::-moz-scrollbar:horizontal {
+    height: 0.5rem;
+}
+::-moz-scrollbar-thumb:horizontal {
+    background: #a366f1; /* color of the thumb */
+}
+
+/* For Internet Explorer and Edge */
+/* Note: Internet Explorer and Edge do not support customizing the scrollbar style */
